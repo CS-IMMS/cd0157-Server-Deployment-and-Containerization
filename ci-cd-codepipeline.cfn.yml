@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: CS-IMMS
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
@@ -91,15 +91,15 @@ Metadata:
       GitHubToken:
         default: Access token
       GitSourceRepo:
-        default: Repository
+        default: cd0157-Server-Deployment-and-Containerization
       GitBranch:
-        default: Branch
+        default: master
       CodeBuildDockerImage:
         default: Docker image
       KubectlRoleName:
         default: kubectl IAM role
       EksClusterName:
-        default: EKS cluster name
+        default: simple-jwt-api
 
 
 Resources:
