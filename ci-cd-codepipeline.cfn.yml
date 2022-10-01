@@ -9,7 +9,7 @@ Parameters:
   EksClusterName:
     Type: String
     Description: The name of the EKS cluster created
-    Default: myFinalStack
+    Default: simple-jwt-api
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter the EKS cluster name
@@ -91,15 +91,15 @@ Metadata:
       GitHubToken:
         default: Access token
       GitSourceRepo:
-        default: cd0157-Server-Deployment-and-Containerization
+        default: Repository
       GitBranch:
-        default: master
+        default: Branch
       CodeBuildDockerImage:
         default: Docker image
       KubectlRoleName:
         default: kubectl IAM role
       EksClusterName:
-        default: myFinalStack
+        default: EKS cluster name
 
 
 Resources:
