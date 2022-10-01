@@ -9,7 +9,7 @@ data:
 
     - groups:
       - system:masters
-      rolearn: arn:aws:iam:618150829136:role/UdacityFlaskDeployCBKubectlRole
+      rolearn: arn:aws:iam::618150829136:role/UdacityFlaskDeployCBKubectlRole
       username: bluid
 
     mapUsers: |
